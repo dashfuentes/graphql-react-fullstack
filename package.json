@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js --exec babel-node",
-    "build": "babel s -d dist --copy-files",
+    "build": "babel src -d dist --copy-files",
     "start": "node dist/index.js"
   },
   "keywords": [],
